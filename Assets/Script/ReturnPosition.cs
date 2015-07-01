@@ -13,6 +13,7 @@ public class ReturnPosition : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.position = new Vector3 (transform.position.x, InitialPositionY, transform.position.z);
+		transform.rotation = Quaternion.identity;
 	}
 
 	void OnCollisionEnter2D(Collision2D collision){
