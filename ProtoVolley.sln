@@ -1,7 +1,9 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{B6A82D5E-9FC2-6B03-0E82-A96265117077}") = "ProtoVolley", "Assembly-CSharp.csproj", "{0F27B187-4385-CEF0-9CFC-3081EB7C6805}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoVolley", "Assembly-CSharp.csproj", "{0F27B187-4385-CEF0-9CFC-3081EB7C6805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoVolley", "Assembly-CSharp-Editor.csproj", "{CF1956FD-51C6-DB92-BE8D-2B44E79E93EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{0F27B187-4385-CEF0-9CFC-3081EB7C6805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F27B187-4385-CEF0-9CFC-3081EB7C6805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F27B187-4385-CEF0-9CFC-3081EB7C6805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1956FD-51C6-DB92-BE8D-2B44E79E93EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1956FD-51C6-DB92-BE8D-2B44E79E93EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1956FD-51C6-DB92-BE8D-2B44E79E93EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1956FD-51C6-DB92-BE8D-2B44E79E93EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +42,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal

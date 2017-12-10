@@ -14,7 +14,7 @@ public class PointManager : MonoBehaviour {
 	
 	}
 
-	public void ActualizeScore(int ScoreEsq, int ScoreDir){		
+	public void ActualizeScore(int ScoreEsq, int ScoreDir) {		
 		ScoreText.text = ScoreEsq + "x" + ScoreDir;
 		if (ScoreEsq >= 10) {
 			ScoreText.text += "\nPlayer 1 Wins";

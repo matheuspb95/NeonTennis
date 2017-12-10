@@ -20,7 +20,7 @@ public class PlayerControllerAlternate : MonoBehaviour {
 					GetComponent<Rigidbody2D> ().velocity = Vector2.zero;
 					GetComponent<Rigidbody2D> ().AddForce (new Vector2 (Force, 0));
 				} else {
-					StartReference.StartGame (GetComponent<PlayerController> ().Side);
+					//StartReference.StartGame (GetComponent<PlayerController> ().Side);
 				}
 			} 
 			if (TouchPosition.x > 0 && Side == Player.Right) {
@@ -28,7 +28,7 @@ public class PlayerControllerAlternate : MonoBehaviour {
 					GetComponent<Rigidbody2D> ().velocity = Vector2.zero;
 					GetComponent<Rigidbody2D> ().AddForce (new Vector2 (-Force, 0));
 				} else {
-					StartReference.StartGame (GetComponent<PlayerController> ().Side);
+					//StartReference.StartGame (GetComponent<PlayerController> ().Side);
 				}
 			}
 		}

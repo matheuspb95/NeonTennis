@@ -8,7 +8,8 @@ public class SceneColorController : MonoBehaviour {
 	public SpriteRenderer[] Players;
 	public SpriteRenderer Floor;
 	public Text ScoreText;
-	public Image RestartButton;
+	public Image RestartButton;	
+	public Image BackButton;
 	// Use this for initialization
 	void Start () {
 		int i = Random.Range (0, Colors.Count - 1);
@@ -17,14 +18,17 @@ public class SceneColorController : MonoBehaviour {
 		i = Random.Range (0, Colors.Count - 1);
 		Players [1].color = Colors [i];
 		Colors.RemoveAt (i);
-		i = Random.Range (0, Colors.Count - 1);
-		Floor.color = Colors [i];
-		Colors.RemoveAt (i);
+		//i = Random.Range (0, Colors.Count - 1);
+		//Floor.color = Colors [i];
+		//Colors.RemoveAt (i);
 		i = Random.Range (0, Colors.Count - 1);
 		ScoreText.color = Colors [i];
 		Colors.RemoveAt (i);
 		i = Random.Range (0, Colors.Count - 1);
 		RestartButton.color = Colors [i];
+		Colors.RemoveAt (i);
+		i = Random.Range (0, Colors.Count - 1);
+		BackButton.color = Colors [i];
 		Colors.RemoveAt (i);
 	}
 	
